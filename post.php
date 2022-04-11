@@ -16,6 +16,21 @@
         <a href="post-submission.html">Post Submission</a> |
       </nav>
       <main>
+        <?php
+        function getPostTitlesFromDatabase
+        $postDetails = array('title' => 'Blog Post 1',
+                             'content' => 'My first blog post',
+                             'date' => '4/10/22',
+                             'author' => 'ianw',
+        return $postDetails;
+        }
+      $postDetails = <getPostTitlesFromDatabase{}; 
+      ?>
+        <h1> <?php echo $postDetails["title"]; ?> </h1>
+        <div> <?php echo $postDetails["author"]; ?> </div>
+        <div> <?php echo $postDetails["date"]; ?> </div>
+        <div> <?php echo $postDetails["content"]; ?> </div>
+
         <h1>Most Popular Browsers</h1>
         <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
       

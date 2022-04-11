@@ -16,12 +16,13 @@
         <a href="post-submission.php">Post Submission</a> |
       </nav>
       <main>
+        <?php
+          function getPostTitlesFromDatabase
         $postDetails = <getPostTitlesFromDatabase{}; 
-        <h1> <?php echo $postDetails["title"]; ?> </h1>
-        <div> <?php echo $postDetails["author"]; ?> </div>
-        <div> <?php echo $postDetails["date"]; ?> </div>
-        <div> <?php echo $postDetails["content"]; ?> </div>
-
+        $postTitles = array("Blog Post 1", "Blog Post 2", "Blog Post 3");
+        return $postTitles;
+        }
+        ?>
         <h1>Most Popular Browsers</h1>
         <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
       

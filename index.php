@@ -4,10 +4,11 @@
           <h1>Welcome to my Blog!</h1>
           <p>Posted by Ian Wachira</p>
           <p>Enjoy Reading!</p>
+          <link rel="stylesheet" href="format.css">
       </article>
       <nav>
-        <a href="post.html">Post</a> |
-        <a href="post-submission.html">Post Submission</a> |
+        <a href="post.php">Post</a> |
+        <a href="post-submission.php">Post Submission</a> |
       </nav>
       <main>
         <h1>Most Popular Browsers</h1>

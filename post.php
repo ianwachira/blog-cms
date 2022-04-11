@@ -1,3 +1,6 @@
+<?php
+    include 'header.php';
+?>
 <html>
     <article>
         <header>
@@ -8,7 +11,7 @@
       </article>
       <nav>
         <a href="post.php">Post</a> |
-        <a href="post-submission.php">Post Submission</a> |
+        <a href="post-submission.html">Post Submission</a> |
       </nav>
       <main>
         <h1>Most Popular Browsers</h1>

@@ -16,13 +16,16 @@
         <a href="post-submission.php">Post Submission</a> |
       </nav>
       <main>
+        <u1>
         <?php
           function getPostTitlesFromDatabase
         $postDetails = <getPostTitlesFromDatabase{}; 
-        $postTitles = array("Blog Post 1", "Blog Post 2", "Blog Post 3");
-        return $postTitles;
+
+        foreach($posstTitles as $postTitle) {
+          echo"<li><a href='post.php>" . $postTitle . "</a></li>";
         }
         ?>
+        </u1>
         <h1>Most Popular Browsers</h1>
         <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
       

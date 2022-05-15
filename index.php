@@ -13,22 +13,12 @@
       </article>
       <nav>
         <a href="post.php">Post</a> |
-        <a href="post-submission.php">Post Submission</a> |
+        <a href="post-submission.html">Post Submission</a> |
       </nav>
       <main>
-        <u1>
-        <?php
-          function getPostTitlesFromDatabase
-        $postDetails = <getPostTitlesFromDatabase{}; 
-
-        foreach($posstTitles as $postTitle) {
-          echo"<li><a href='post.php>" . $postTitle . "</a></li>";
-        }
-        ?>
-        </u1>
         <h1>Most Popular Browsers</h1>
         <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
-      
+
         <article>
           <h2>Google Chrome</h2>
           <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>

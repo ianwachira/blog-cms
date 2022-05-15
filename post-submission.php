@@ -3,6 +3,7 @@
     include 'nav.php';
     include 'footer.php';
 ?>
+
 <html>
     <article>
         <header>
@@ -11,6 +12,7 @@
           <p>Enjoy Reading!</p>
           <link rel="stylesheet" href="format.css">
       </article>
+
       <main>
         <form action="/action_page.php" method="get">
             <h1>Title</h1>

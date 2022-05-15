@@ -2,6 +2,19 @@
     include 'header.php';
     include 'nav.php';
     include 'footer.php';
+      function getPostDetailsFromDatabase() {
+
+
+        $postDetails = array('title' => 'Blog Post 1',
+                             'content' => 'My first blog post',
+                             'date' => '01/01/2018',
+                             'author' => 'ianw',
+        return $postDetails;
+      }
+      <h1> <?php echo $postDetails["title"; ?> </h1>
+      <div> <?php echo $postDetails["author"; ?> </div>
+      <div> <?php echo $postDetails["date"; ?> </div>
+      <div> <?php echo $postDetails["content"; ?> </div>
 ?>
 <html>
     <article>
@@ -16,24 +29,9 @@
         <a href="post-submission.html">Post Submission</a> |
       </nav>
       <main>
-        <?php
-        function getPostTitlesFromDatabase
-        $postDetails = array('title' => 'Blog Post 1',
-                             'content' => 'My first blog post',
-                             'date' => '4/10/22',
-                             'author' => 'ianw',
-        return $postDetails;
-        }
-      $postDetails = <getPostTitlesFromDatabase{}; 
-      ?>
-        <h1> <?php echo $postDetails["title"]; ?> </h1>
-        <div> <?php echo $postDetails["author"]; ?> </div>
-        <div> <?php echo $postDetails["date"]; ?> </div>
-        <div> <?php echo $postDetails["content"]; ?> </div>
-
         <h1>Most Popular Browsers</h1>
         <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
-      
+
         <article>
           <h2>Google Chrome</h2>
           <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>

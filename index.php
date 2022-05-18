@@ -13,8 +13,17 @@
       </article>
       <nav>
         <a href="post.php">Post</a> |
-        <a href="post-submission.html">Post Submission</a> |
+        <a href="post-submission.html">Post Submission</a> 
       </nav>
+<u1>
+  <?php
+      $postTitles = getPostTitlesFromDatabase();
+      
+      foreach($postTitles as $postTitle) {
+          echo "<li><a href='post.php?titlle='>" . $postTitle . "'>" . $postTitle . "</a></li>";
+          }
+    ?>
+</u1>
       <main>
         <h1>Most Popular Browsers</h1>
         <p>Chrome, Firefox, and Edge are the most used browsers today.</p>

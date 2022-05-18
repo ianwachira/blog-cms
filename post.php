@@ -1,20 +1,8 @@
 <?php
-    include 'header.php';
-    include 'nav.php';
-    include 'footer.php';
-      function getPostDetailsFromDatabase() {
 
-
-        $postDetails = array('title' => 'Blog Post 1',
-                             'content' => 'My first blog post',
-                             'date' => '01/01/2018',
-                             'author' => 'ianw',
-        return $postDetails;
-      }
-      <h1> <?php echo $postDetails["title"; ?> </h1>
-      <div> <?php echo $postDetails["author"; ?> </div>
-      <div> <?php echo $postDetails["date"; ?> </div>
-      <div> <?php echo $postDetails["content"; ?> </div>
+      include 'header.php';
+      include 'nav.php';
+      include 'footer.php';
 ?>
 <html>
     <article>
@@ -28,6 +16,13 @@
         <a href="post.php">Post</a> |
         <a href="post-submission.html">Post Submission</a> |
       </nav>
+<?php
+    $postDetails = getPostDetailsFromDatabase();
+?>
+<h1> <?php echo $postDetails["title"]; ?> </h1>
+<div> <?php echo $postDetails["author"]; ?> </div>
+<div> <?php echo $postDetails["date"]; ?> </div>
+<div> <?php echo $postDetails["content"]; ?> </div>
       <main>
         <h1>Most Popular Browsers</h1>
         <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
